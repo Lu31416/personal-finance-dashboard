@@ -1,117 +1,169 @@
-💰 Personal Finance Dashboard
+# 💰 Personal Finance Dashboard
+[🌐 Live Demo](https://personal-finance-dashboard-31416.streamlit.app/)
 
-🚀 LIVE DEMO: View Dashboard
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live-orange)](https://streamlit.io/)
+[![Plotly](https://img.shields.io/badge/Plotly-Interactive-purple)](https://plotly.com/python/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-English | Español | Português
+---
 
-English
-Interactive financial dashboard with real-time Google Sheets integration. Transform your spreadsheet data into beautiful visualizations with KPIs, charts, and trend analysis.
-✨ Features
+[Português](#portugues) | [English](#english) | [Español](#espanol)
 
-📊 Real-time data from Google Sheets
-📈 Interactive charts with Plotly
-💰 Financial KPIs (income, expenses, savings rate)
-🎛️ Smart filters by month/category
-📱 Mobile responsive design
+---
 
-🚀 Quick Start
+### <a name="portugues"></a>🇵🇹 Dashboard de Finanças Pessoais
 
-Try the live demo (no setup required) https://personal-finance-dashboard-31416.streamlit.app/
-Clone repository: git clone https://github.com/Lu31416/personal-finance-dashboard
-Install dependencies: pip install -r requirements.txt
-Run locally: streamlit run app.py
+*Uma visão clara e interativa das suas finanças.*
 
-📊 Data Format
-Your Google Sheet needs these columns:
+## Sobre o Projeto
+Este projeto é um dashboard de finanças pessoais construído com **Streamlit**, projetado para transformar seus dados de transações (receitas e despesas) em uma visualização interativa e fácil de entender. Com ele, você pode analisar seus hábitos de consumo, identificar tendências e tomar decisões financeiras mais inteligentes.
 
-Month: January2025
-Type: Income/Fixed/Variable
-Category: Salary/Rent/Food
-Amount: 5000 (income) / -1200 (expenses)
+O dashboard é ideal para quem busca uma maneira **visual e simples** de gerenciar seu dinheiro, sem necessidade de planilhas complexas.
 
-🛠️ Tech Stack
+## Funcionalidades Principais
+* **Análise de Despesas e Receitas:** Visualize o fluxo do seu dinheiro ao longo do tempo com gráficos e métricas claras.
+* **Upload de Dados:** Carregue seu próprio arquivo CSV ou Google Sheets para análise personalizada.
+* **Categorização Automática:** Agrupa suas transações em categorias como Moradia, Alimentação e Lazer.
+* **Métricas Financeiras (KPIs):** Resumo visual de receita total, despesa total e saldo.
 
-Frontend: Streamlit
-Charts: Plotly Express
-Data: Pandas + Google Sheets
-Deploy: Streamlit Cloud
+## Tecnologias Utilizadas
+* **Python:** Linguagem de programação principal.
+* **Streamlit:** Framework para a criação do dashboard interativo.
+* **Pandas:** Usado para a manipulação e análise de dados.
+* **Plotly Express:** Biblioteca para a criação de gráficos interativos e atraentes.
 
+## Como Usar
+Para começar, basta carregar seu arquivo CSV. A plataforma é intuitiva e guiará você por todas as etapas.
 
-Español
-Dashboard financiero interactivo con integración en tiempo real a Google Sheets. Transforma los datos de tu hoja de cálculo en visualizaciones hermosas con KPIs, gráficos y análisis de tendencias.
-✨ Características
+## Configuração e Instalação
+Siga estes passos para rodar o projeto localmente:
 
-📊 Datos en tiempo real desde Google Sheets
-📈 Gráficos interactivos con Plotly
-💰 KPIs financieros (ingresos, gastos, tasa de ahorro)
-🎛️ Filtros inteligentes por mes/categoría
-📱 Diseño responsive móvil
+1.  **Clone o repositório:**
+    ```bash
+    git clone [Link do seu repositório GitHub]
+    cd [nome-do-seu-repositorio]
+    ```
+2.  **Crie e ative um ambiente virtual (recomendado):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+    ```
+3.  **Instale as dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **Execute o dashboard:**
+    ```bash
+    streamlit run app.py
+    ```
+O dashboard será aberto automaticamente em seu navegador padrão.
 
-🚀 Inicio Rápido
+## Contribuição
+Contribuições são sempre bem-vindas! Se você tiver sugestões de melhorias, por favor, abra uma *issue* ou envie um *pull request*.
 
-Prueba la demo en vivo (sin configuración) https://personal-finance-dashboard-31416.streamlit.app/
-Clonar repositorio: git clone https://github.com/Lu31416/personal-finance-dashboard
-Instalar dependencias: pip install -r requirements.txt
-Ejecutar localmente: streamlit run app.py
+---
 
-📊 Formato de Datos
-Tu Google Sheet necesita estas columnas:
+### <a name="english"></a>🇬🇧 Personal Finance Dashboard
 
-Month: January2025
-Type: Income/Fixed/Variable
-Category: Salary/Rent/Food
-Amount: 5000 (ingresos) / -1200 (gastos)
+[Personal Finance Dashboard]
+*A clear and interactive view of your finances.*
 
-🛠️ Stack Tecnológico
+## About the Project
+This project is a personal finance dashboard built with **Streamlit**, designed to transform your transaction data (income and expenses) into an interactive and easy-to-understand visualization. With it, you can analyze your spending habits, identify trends, and make smarter financial decisions.
 
-Frontend: Streamlit
-Gráficos: Plotly Express
-Datos: Pandas + Google Sheets
-Deploy: Streamlit Cloud
+The dashboard is ideal for anyone looking for a simple, visual way to manage their money without the need for complex spreadsheets.
 
+## Main Features
+* **Income and Expense Analysis:** Visualize the flow of your money over time through clear charts and metrics.
+* **Data Upload:** Upload your own transaction data via a CSV file for personalized analysis.
+* **Automatic Categorization:** The dashboard can group your transactions into categories like Housing, Food, and Leisure for detailed analysis.
+* **Financial Metrics (KPIs):** Get a visual summary of your key performance indicators, such as total income, total expenses, and balance.
 
-Português
-Dashboard financeiro interativo com integração em tempo real ao Google Sheets. Transforme os dados da sua planilha em visualizações bonitas com KPIs, gráficos e análise de tendências.
-✨ Funcionalidades
+## Technologies Used
+* **Python:** Main programming language.
+* **Streamlit:** Framework for creating the interactive dashboard.
+* **Pandas:** Used for data manipulation and analysis.
+* **Plotly Express:** Library for creating interactive and appealing charts.
 
-📊 Dados em tempo real do Google Sheets
-📈 Gráficos interativos com Plotly
-💰 KPIs financeiros (receitas, despesas, taxa de poupança)
-🎛️ Filtros inteligentes por mês/categoria
-📱 Design responsivo mobile
+## How to Use
+To get started, simply upload your CSV file. The platform is intuitive and will guide you through all the steps.
 
-🚀 Início Rápido
+## Setup and Installation
+Follow these steps to run the project locally:
 
-Teste a demo ao vivo (sem configuração) https://personal-finance-dashboard-31416.streamlit.app/
-Clonar repositório: git clone https://github.com/Lu31416/personal-finance-dashboard
-Instalar dependências: pip install -r requirements.txt
-Executar localmente: streamlit run app.py
+1.  **Clone the repository:**
+    ```bash
+    git clone [Your GitHub repository link]
+    cd [your-repository-name]
+    ```
+2.  **Create and activate a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **Run the dashboard:**
+    ```bash
+    streamlit run app.py
+    ```
+The dashboard will automatically open in your default browser.
 
-📊 Formato dos Dados
-Sua planilha Google precisa destas colunas:
+## Contribution
+Contributions are always welcome! If you have suggestions for improvements, please open an *issue* or submit a *pull request*.
 
-Month: January2025
-Type: Income/Fixed/Variable
-Category: Salary/Rent/Food
-Amount: 5000 (receitas) / -1200 (despesas)
+---
 
-🛠️ Stack Tecnológico
+### <a name="espanol"></a>🇪🇸 Dashboard de Finanzas Personales
 
-Frontend: Streamlit
-Gráficos: Plotly Express
-Dados: Pandas + Google Sheets
-Deploy: Streamlit Cloud
+[Dashboard de Finanças]
+*Una vista clara e interactiva de tus finanzas.*
 
+## Acerca del Proyecto
+Este proyecto es un dashboard de finanzas personales construido con **Streamlit**, diseñado para transformar tus datos de transacciones (ingresos y gastos) en una visualización interactiva y fácil de entender. Con él, puedes analizar tus hábitos de consumo, identificar tendencias y tomar decisiones financieras más inteligentes.
 
-🤝 Contributing
-Contributions are welcome! Feel free to:
+El dashboard es ideal para quienes buscan una manera simple y visual de gestionar su dinero, sin la necesidad de hojas de cálculo complejas.
 
-🐛 Report bugs
-💡 Suggest features
-🔧 Submit pull requests
+## Funcionalidades Principales
+* **Análisis de Ingresos y Gastos:** Visualiza el flujo de tu dinero a lo largo del tiempo a través de gráficos y métricas claras.
+* **Carga de Datos:** Sube tus propios datos de transacciones a través de un archivo CSV para un análisis personalizado.
+* **Clasificación Automática:** El dashboard puede agrupar tus transacciones en categorías como Vivienda, Alimentación y Ocio para un análisis detallado.
+* **Métricas Financieras (KPIs):** Obtén un resumen visual de tus indicadores clave de rendimiento, como ingresos totales, gastos totales y saldo.
 
-📄 License
-MIT License - feel free to use for personal or commercial projects.
+## Tecnologías Utilizadas
+* **Python:** Lenguaje de programación principal.
+* **Streamlit:** Framework para la creación del dashboard interactivo.
+* **Pandas:** Utilizado para la manipulación y análisis de datos.
+* **Plotly Express:** Biblioteca para la creación de gráficos interactivos y atractivos.
 
-⭐ Star this repo if you found it useful!
-Connect: GitHub | Live Demo
+## Cómo Usar
+Para comenzar, simplemente carga tu archivo CSV. La plataforma es intuitiva y te guiará a través de todos los pasos.
+
+## Configuración e Instalación
+Sigue estos pasos para ejecutar el proyecto localmente:
+
+1.  **Clona el repositorio:**
+    ```bash
+    git clone [Enlace a tu repositorio de GitHub]
+    cd [nombre-de-tu-repositorio]
+    ```
+2.  **Crea y activa un entorno virtual (recomendado):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # En Windows, usa `venv\Scripts\activate`
+    ```
+3.  **Instala las dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  **Ejecuta el dashboard:**
+    ```bash
+    streamlit run app.py
+    ```
+El dashboard se abrirá automáticamente en tu navegador predeterminado.
+
+## Contribución
+¡Las contribuciones son siempre bienvenidas! Si tienes sugerencias de mejora, por favor, abre una *issue* o envía un *pull request*.
