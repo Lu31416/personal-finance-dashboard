@@ -16,7 +16,7 @@
 
 *Uma visão clara e interativa das suas finanças.*
 
-## Sobre o Projeto
+## Sobre o Projeto [🌐 Live Demo](https://personal-finance-dashboard-31416.streamlit.app/)
 Este projeto é um dashboard de finanças pessoais construído com **Streamlit**, projetado para transformar seus dados de transações (receitas e despesas) em uma visualização interativa e fácil de entender. Com ele, você pode analisar seus hábitos de consumo, identificar tendências e tomar decisões financeiras mais inteligentes.
 
 O dashboard é ideal para quem busca uma maneira **visual e simples** de gerenciar seu dinheiro, sem necessidade de planilhas complexas.
@@ -69,7 +69,7 @@ Contribuições são sempre bem-vindas! Se você tiver sugestões de melhorias, 
 [Personal Finance Dashboard]
 *A clear and interactive view of your finances.*
 
-## About the Project
+## About the Project [🌐 Live Demo](https://personal-finance-dashboard-31416.streamlit.app/)
 This project is a personal finance dashboard built with **Streamlit**, designed to transform your transaction data (income and expenses) into an interactive and easy-to-understand visualization. With it, you can analyze your spending habits, identify trends, and make smarter financial decisions.
 
 The dashboard is ideal for anyone looking for a simple, visual way to manage their money without the need for complex spreadsheets.
@@ -122,7 +122,7 @@ Contributions are always welcome! If you have suggestions for improvements, plea
 [Dashboard de Finanças]
 *Una vista clara e interactiva de tus finanzas.*
 
-## Acerca del Proyecto
+## Acerca del Proyecto [🌐 Live Demo](https://personal-finance-dashboard-31416.streamlit.app/)
 Este proyecto es un dashboard de finanzas personales construido con **Streamlit**, diseñado para transformar tus datos de transacciones (ingresos y gastos) en una visualización interactiva y fácil de entender. Con él, puedes analizar tus hábitos de consumo, identificar tendencias y tomar decisiones financieras más inteligentes.
 
 El dashboard es ideal para quienes buscan una manera simple y visual de gestionar su dinero, sin la necesidad de hojas de cálculo complejas.
